@@ -23,3 +23,13 @@ function hideMenu () {
 }
 
 
+const sr = ScrollReveal ({
+    distance: '30px',
+    duration: 1500,
+    reset: true
+  });
+
+sr.reveal(`.hero__container`,{
+    origin: 'right',
+    interval: 100
+  })
